@@ -1,0 +1,155 @@
+.html, body{
+    background-color: white;
+}
+
+#rodape{
+   height: 200px;
+   width: 100%;
+   background: rgba(0,0,0,.03);
+   margin-top: 180px;
+}
+
+#content{
+   margin-top: 80px;
+   text-align: center;
+   font-family: 'Russo One', sans-serif;
+}
+
+#content #logo-web{
+   width:400px;
+   height: 100%;
+   text-align: center;
+}
+
+#content #botoes{
+   margin-top: 50px;
+}
+
+#content #botoes div{
+   margin-bottom: 30px;
+}
+
+#content #botoes a{
+   text-decoration: none;
+   color: #1A0DAB;
+   font-size: 22px;
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#content #botoes a:hover{
+   text-decoration: none;
+   font-size: 22px;
+   color: rgba(0,0,0,0.7);
+   background-color: rgba(255, 180, 0, .4);
+   border: solid;
+   border-width: 1px;
+   border-color: rgba(255, 180, 0, .8);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#content #botoes a:active{
+   text-decoration: none;
+   font-size: 22px;
+   color: #f4f4f4;
+   background-color: rgba(255, 180, 0, .8);
+   border: solid;
+   border-width: 2px;
+   border-color: rgba(255, 180, 0, .8);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#content #city-search{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 18px;
+   color: rgba(0,0,0,.5);
+}
+
+#pesquisa-form{
+   font-family: 'Varela Round', sans-serif;
+   margin-top: 40px;
+}
+
+#pesquisa-form #submit-form{
+   width: 100%;
+}
+
+#pesquise-por{
+   margin-top: 40px;
+}
+
+#pesquise-por span{
+   font-family: 'Varela Round', sans-serif;
+   font-weight: bold;
+   margin-right: 15px;
+}
+
+.duvida{
+   color: #d10000;
+   font-size: 30px;
+}
+
+#pesquise-por .duvida{
+   margin: 20px;
+}
+
+#pesquise-por .duvida i{
+   position: relative;
+   top: 6px;
+}
+
+#cabecalho-resultado{
+   
+}
+
+#cabecalho-resultado img{
+   width: 200px;
+   height: auto;
+   margin-top: 20px;
+}
+
+#cabecalho-resultado form{
+   margin-top: 25px;
+}
+
+.quadro-anuncio{
+ text-align: left;
+ font-family: 'Lato', sans-serif;
+ margin: 20px;
+ margin-bottom: 40px;
+ background-color: white;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 7px #dbdbdb;
+}
+
+.quadro-anuncio .nome{
+   color:#337AB7;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.quadro-anuncio a{
+   color: #2F8249;
+}
+
+.content-resultado{
+   background-color: #f9f9f9;
+}
+
+#resultado-pesquise-por{
+   margin-bottom: -50px;
+}
+
+#resultado-pesquise-por .duvida{
+   margin-left: 10px;
+}
+
+#resultado-pesquise-por .duvida i{
+   position: relative;
+   top: 6px;
+}
